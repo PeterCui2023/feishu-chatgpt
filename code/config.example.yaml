@@ -4,13 +4,13 @@ APP_SECRET: RLam8pOsCNxxtc9SpYdDkfLm2FFEdCwb
 APP_ENCRYPT_KEY: 27iSf6GFC1TA5wo31ecwIgljwX1Xp6KZ
 APP_VERIFICATION_TOKEN: aXFD1HRXtigA4XkXyBcT4f8jkk52MGoj
 # 请确保和飞书应用管理平台中的设置一致
-BOT_NAME: MyGPT
+BOT_NAME: feishu-chatgpt
 # openAI key 支持负载均衡 可以填写多个key 用逗号分隔
 OPENAI_KEY: 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
 # 服务器配置
 HTTP_PORT: 9000
 HTTPS_PORT: 9000
-USE_HTTPS: false
+USE_HTTPS: TRUE
 CERT_FILE: cert.pem
 KEY_FILE: key.pem
 # openai 地址, 一般不需要修改, 除非你有自己的反向代理
