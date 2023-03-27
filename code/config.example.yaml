@@ -1,12 +1,12 @@
-#  飞书
-APP_ID: cli_axxx
-APP_SECRET: xxx
-APP_ENCRYPT_KEY: xxx
-APP_VERIFICATION_TOKEN: xxx
+#  飞书  # 不要随意修改example中配置的顺序和空格，否则docker的sed脚本会执行出错
+APP_ID: cli_a495909c2db8d013
+APP_SECRET: RLam8pOsCNxxtc9SpYdDkfLm2FFEdCwb
+APP_ENCRYPT_KEY: 27iSf6GFC1TA5wo31ecwIgljwX1Xp6KZ
+APP_VERIFICATION_TOKEN: aXFD1HRXtigA4XkXyBcT4f8jkk52MGoj
 # 请确保和飞书应用管理平台中的设置一致
-BOT_NAME: chatGpt
+BOT_NAME: MyGPT
 # openAI key 支持负载均衡 可以填写多个key 用逗号分隔
-OPENAI_KEY: sk-xxx,sk-xxx,sk-xxx
+OPENAI_KEY: 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,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
 # 服务器配置
 HTTP_PORT: 9000
 HTTPS_PORT: 9001
